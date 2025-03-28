@@ -29,7 +29,7 @@ Which aircraft models are the safest for investment?
 
 3. Data Understanding
 
-Dataset Source ("./data/Aviation_Data.csv")
+Dataset Source (["./data/Aviation_Data.csv"])
 
 The dataset is from the National Transportation Safety Board (NTSB), covering civil aviation accidents from 1962 to 2023.
 
@@ -109,6 +109,6 @@ Jupyter Notebook with full analysis and visualizations.
 
 Aviation_Modified CSV dataset with transformed data.
 
-PowerPoint presentation summarizing findings.
+PowerPoint presentation summarizing findings.(["presentation.pdf"])
 
 ReadMe document detailing the analysis and business recommendations.
