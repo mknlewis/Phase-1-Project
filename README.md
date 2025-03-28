@@ -99,7 +99,7 @@ Diversify aircraft investments based on severity trends and accident history.
 
 7. Next Steps
 
-Develop an interactive dashboard to monitor real-time aviation trends.
+Develop an interactive dashboard to monitor real-time aviation trends (Tableau Dashboard["https://public.tableau.com/views/Book1_17428418660370/SMARTAIRCRAFTINVESTMENTSRiskStrategy?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"]).
 
 Expand the dataset to include more international accident records for a global perspective.
 
