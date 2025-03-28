@@ -1,82 +1,114 @@
 # Phase-1-Project
-Aviation Accident Data Analysis
+Aviation Accident Risk Analysis - README
 
-Project Overview
+1. Project Overview
 
-This project aims to analyze aviation accident data to identify the lowest-risk aircraft models for a company planning to expand into the aviation industry. The analysis involves data cleaning, imputation, exploration, and visualization to generate actionable insights for business decision-making.
+The project analyzes aviation accident data to determine the lowest-risk aircraft for the company to consider investment in commercial and/or private aviation. The analysis includes data cleaning, exploration, visualization, and business recommendations based on accident trends and its severity.
 
-Business Understanding
+2. Business Understanding
 
-The company seeks to diversify its portfolio by purchasing and operating airplanes for commercial and private enterprises. However, it lacks knowledge about the risks associated with different aircraft. The goal is to determine which aircraft models have the lowest accident rates and are safest for investment.
+Problem Statement
 
-Data Understanding
+The company is expanding into aviation but lacks knowledge of potential risks. 
 
-Dataset Source
+Objective
 
-The dataset, obtained from the National Transportation Safety Board, covers civil aviation accidents from 1962 to 2023. It includes details on:
+To identify aircraft manufacturers with the lowest accident risk, enabling data-driven investment decisions.
 
-Aircraft make and model
+Key Questions Addressed
 
-Type of accident
+Which aircraft manufacturers have the most and least accidents?
 
-Weather conditions
+What are the main causes of accidents?
 
-Fatalities and injuries
+How severe are these accidents (fatalities, injuries)?
 
-Year and location of incidents
+Are there any significant trends in aviation accidents over time?
 
-Other relevant accident-related attributes
+Which aircraft models are the safest for investment?
 
-Data Preprocessing
+3. Data Understanding
 
-Handling missing values through imputation techniques
+Dataset Source ("./data/Aviation_Data.csv")
 
-Standardizing column names and formats
+The dataset is from the National Transportation Safety Board (NTSB), covering civil aviation accidents from 1962 to 2023.
 
-Removing irrelevant or duplicate data
+Data includes accident details such as aircraft type, manufacturer, accident severity, injuries, and causes.
 
-Data Analysis
+Initial Observations
 
-Key Analysis Performed:
+Missing values were present.
 
-Accident Trends Over Time – Visualized patterns in aviation accidents across different years.
+Manufacturer names had inconsistencies.
 
-Aircraft Manufacturer Analysis – Identified manufacturers with the highest and lowest accident rates.
+There were duplicate records that needed removal.
 
-Weather Conditions & Accidents – Analyzed the impact of weather on accidents.
+4. Data Cleaning & Processing
 
-Severity of Accidents – Categorized accidents based on fatalities and injuries.
+Steps Taken
 
-Geographical Distribution – Mapped accident locations to observe regional trends.
+Handled missing values
 
-Visualizations
+Injury-related missing values were replaced using median.
 
-Scatter Plot of Accident Trends – Shows the distribution of accidents over time.
+Standardized manufacturer names.
 
-Bar Charts – Highlight top 10 manufacturers with most and least accidents.
+Removed duplicate records.
 
-Heatmaps – Represent correlations between accident severity and other variables.
+Ensured data integrity.
 
-Pie Charts – Illustrate proportions of accident causes.
+Extracted relevant date information.
 
-Recommendations
+Converted accident dates to extract month and year-wise trends.
 
-Invest in Aircraft with Lower Accident Rates – Based on analysis, models from certain manufacturers show fewer accidents.
+5. Data Analysis & Visualizations
 
-Prioritize Aircraft with Better Weather Resilience – Aircraft that perform well in diverse weather conditions should be preferred.
+1. Top Manufacturers by Accident Frequency
 
-Safety Training & Maintenance Policies – Implement rigorous pilot training and maintenance routines to further reduce risks.
+Identified top 10 manufacturers with highest and lowest accident rates.
 
-Next Steps
+Used bar charts for visual representation.
 
-Enhance analysis by incorporating additional features like maintenance records.
+2. Trend Analysis of Accidents Over Time
 
-Build a predictive model to assess aircraft accident probability.
+A line graph was created to visualize accident trends (1962-2023).
 
-Develop an interactive dashboard for real-time decision-making.
+Findings: Accidents peaked in the 1980s and 1990s but declined after 2000.
 
-Conclusion
+6. Key Insights & Business Recommendations
 
-This project provides data-driven insights to assist the company in making informed investment decisions in the aviation industry. By selecting the safest aircraft models and implementing risk-mitigation strategies, the company can successfully enter the aviation sector with reduced operational risks.
+1. Safest Manufacturers for Investment
 
+Manufacturers with the lowest accident rates are recommended for investment.
 
+Prioritize aircraft models with low historical accident occurrences.
+
+2. Factors Affecting Accident Severity
+
+Weather conditions and aircraft type significantly impact accident severity.
+
+Investing in aircraft with enhanced safety features is crucial.
+
+3. Business Decision Recommendations
+
+Prioritize modern aircraft models with improved safety measures.
+
+Monitor regulatory safety trends to ensure compliance.
+
+Diversify aircraft investments based on severity trends and accident history.
+
+7. Next Steps
+
+Develop an interactive dashboard to monitor real-time aviation trends.
+
+Expand the dataset to include more international accident records for a global perspective.
+
+8. Final Deliverables
+
+Jupyter Notebook with full analysis and visualizations.
+
+Aviation_Modified CSV dataset with transformed data.
+
+PowerPoint presentation summarizing findings.
+
+ReadMe document detailing the analysis and business recommendations.
